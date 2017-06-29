@@ -1,0 +1,210 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+::selection{
+	background-color: #de7676;
+	color:#fff;
+}
+::-moz-selection:{
+	background-color: #de7676;
+	color:#fff;
+}
+/*Min CSS Start*/
+
+@font-face{
+font-family: 'Source Sans';
+font-style: normal;
+font-weight: 400;
+ src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face{
+font-family: 'Source Sans';
+font-style: normal;
+font-weight: 600;
+ src: url(../fonts/SourceSansPro-Semibold.ttf);
+}
+
+@font-face{
+font-family: 'Rajdhani';
+font-style: normal;
+font-weight: 400;
+ src: url(../fonts/Rajdhani-Medium.ttf);
+}
+
+@font-face{
+font-family: 'Rajdhani';
+font-style: normal;
+font-weight: 600;
+ src: url(../fonts/Rajdhani-SemiBold.ttf);
+}
+@font-face{
+font-family: 'Rajdhani';
+font-style: normal;
+font-weight: 800;
+ src: url(../fonts/Rajdhani-Bold.ttf);
+}
+
+@font-face{
+font-family: 'Poetsenone';
+font-style: normal;
+font-weight: 600;
+ src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+
+body{
+background: #f7f7f7;
+font-family: "Open Sans",Helvetica,sans-serif;
+font-weight: 400;
+color: #3c4a57;
+font-size:14px;
+}
+
+a{
+text-decoration: none;
+}
+
+.sol{
+float: left;
+}
+
+.sag{
+float: right;
+}
+
+.temizle{
+clear: both;
+}
+.post b,.post strong{
+font-weight:600;
+color:#000
+}
+.post a{
+padding:0px 2px 0px 2px;
+color:#991818;
+margin:2px;
+}
+.post a:hover{
+color:#6d1313;
+}
+.post h1{
+font-size:22px;
+font-weight:800;
+padding:3px;
+}
+.post h2{
+font-size:21px;
+font-weight:800;
+margin:3px;
+}
+.post h3{
+font-size:20px;
+font-weight:800;
+margin:3px;
+}
+.post h4{
+font-size:19px;
+font-weight:800;
+margin:3px;
+}
+.post h5{
+font-size:17px;
+font-weight:800;
+margin:3px;
+}
+.post h6{
+font-size:15px;
+font-weight:800;
+margin:3px;
+}
+.post em{
+font-style: italic;
+}
+.post pre{
+background:#302c2a;
+border:1px solid #c9d1d3;
+border-left: 5px solid #c9d1d3;
+color:#fff;
+padding:5px;
+font-weight: 400;
+}
+.post blockquote{
+background:#f7f7f7;
+border:1px solid #c9d1d3;
+border-left: 5px solid #c9d1d3;
+padding:5px;
+font-weight: 400;
+}
+.post ul{
+padding:3px;
+}
+.post li{
+margin-left:20px;
+list-style-type:disc;
+list-style-position: inside;
+}
+.post hr{
+background:#c9d1d3;
+width:100%;
+height:1px;
+border:none
+}
+.aligncenter,.wp-caption,.alignnone,.size-full{
+width:90%;
+height:90%;
+margin:0px auto;
+-webkit-transition: .3s;
+border:1px solid #c9d1d3;
+padding:2px;
+opacity:0.7;
+}
+.aligncenter:hover,.wp-caption:hover,.alignnone:hover,.size-full:hover{
+-webkit-transition: .3s;
+opacity:1;
+}
+.post a img{
+width:90%;
+height:90%;
+margin:0px auto;
+}
+/*Min CSS Finish*/
